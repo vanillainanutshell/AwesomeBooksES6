@@ -20,9 +20,7 @@ Download the ZIP from this location, or run the following git command to clone t
 * HTML
 * GitHub
 
-## Author
-
-#### 👤 Author
+## 👤 Author
 - GitHub: [@vanillainanutshell](https://github.com/vanillainanutshell)
 
 ## Contributing 
