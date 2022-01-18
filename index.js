@@ -2,7 +2,7 @@
 /* eslint-disable max-classes-per-file */
 import Book from './modules/book.js';
 import { DummyData, Storage } from './modules/localstorage.js';
-import { currentTime } from './modules/time.js';
+// import { currentTime } from './modules/time.js';
 const form = document.querySelector('#form');
 const titleInput = document.querySelector('#title');
 const authorInput = document.querySelector('#author');
@@ -64,5 +64,14 @@ contact.addEventListener('click', () => {
     table.classList.add('toggle');
 });
 
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
-time.textContent = currentTime(new Date());
+const startTime = () => {
+    const now = DateTime.now();
+    document.getElementById('time').innerHTML = now.toLocaleString(
+        DateTime.DATETIME_MED,
+    );
+    setTimeout(startTime, 1000);
+};
+
+time.textContent = startTime();
