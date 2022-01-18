@@ -20,17 +20,7 @@ Download the ZIP from this location, or run the following git command to clone t
 * HTML
 * GitHub
 
-## Author
-
-#### 👤 Author1
-- GitHub: [@denscholar](https://github.com/denscholar)
-- Twitter: [@denscholar](https://twitter.com/dennisakagha)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dennisakagha/)
-
-#### 👤 Author2
-- GitHub: [@sumairq](https://github.com/sumairq)
-
-#### 👤 Author3
+## 👤 Author
 - GitHub: [@vanillainanutshell](https://github.com/vanillainanutshell)
 
 ## Contributing 
